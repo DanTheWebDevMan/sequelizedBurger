@@ -19,8 +19,8 @@ var routes = require("./controllers/burgers_controller");
 
 app.use(routes);
 
-// listen on port 3000
-var PORT = process.env.PORT || 3000;
+// listen on port 3000 or 3007?
+var PORT = process.env.PORT || 3007;
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });

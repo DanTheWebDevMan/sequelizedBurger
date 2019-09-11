@@ -1,11 +1,14 @@
+
+// delete line requiring orm method 
 var orm = require("../config/orm");
 
 var burger = {
   all: function(cb) {
+    // delete the below orm method and replace with sequelize method
     orm.all("burgers", function(res) {
       cb(res);
     });
-    
+
   },
   create: function(name, cb) {
     orm.create("burgers", ["burger_name", "devoured"], [name, false], cb);
