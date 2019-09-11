@@ -40,3 +40,5 @@ router.put("/burgers/update/:id", function(req, res) {
 });
 
 module.exports = router;
+
+// put all quries here "Find all" and other queries
