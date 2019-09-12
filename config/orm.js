@@ -71,4 +71,4 @@ var orm = {
   }
 };
 
-module.exports = orm;
+module.exports = burger;
